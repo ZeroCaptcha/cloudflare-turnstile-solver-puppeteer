@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-turnstile-solver-puppeteer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Solve Cloudflare Turnstile and pass Cloudflare challenge pages in Puppeteer with the ZeroCaptcha API.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "solve": "node solve-turnstile.mjs",
+    "challenge": "node pass-challenge.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "puppeteer": "25.12.0"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}
